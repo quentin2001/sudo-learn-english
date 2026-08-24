@@ -1,0 +1,309 @@
+{
+  "version": "1.0",
+  "user": "quentin2001",
+  "stats": {
+    "total_books_read": 1,
+    "total_words_absorbed": 15000,
+    "current_level": "Phase 1 (Flow & Confidence)"
+  },
+  "books": {
+    "01-the-little-prince": {
+      "title": "The Little Prince",
+      "status": "completed",
+      "date_completed": "2026-08",
+      "words_count": 15000,
+      "unique_lemmas": 1240,
+      "active_collocations": [
+        "establish ties",
+        "matter of consequence",
+        "in the blink of an eye",
+        "look with the heart"
+      ]
+    },
+    "02-who-moved-my-cheese": {
+      "title": "Who Moved My Cheese?",
+      "status": "reading",
+      "progress_pct": 50,
+      "words_count": 10000,
+      "unique_lemmas": 850,
+      "active_collocations": [
+        "anticipate change",
+        "let go of fear",
+        "laugh at oneself"
+      ]
+    }
+  },
+  "known_words": {
+    "little": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 32,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "draw": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 23,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "prince": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 21,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "very": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 17,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "sheep": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 13,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "rose": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 13,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "shall": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 11,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "tame": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 10,
+      "status": "mastered",
+      "cefr": "B2"
+    },
+    "constrictor": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 9,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "noth": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 9,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "grown": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 8,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "understand": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 7,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "great": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 7,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "thousand": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 7,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "more": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 7,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "here": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 6,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "need": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 6,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "made": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 6,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "friend": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 6,
+      "status": "mastered",
+      "cefr": "A1"
+    },
+    "hour": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 6,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "picture": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 5,
+      "status": "mastered",
+      "cefr": "A1"
+    },
+    "number": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 5,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "another": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 5,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "inside": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 5,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "chicken": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 5,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "able": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 4,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "alway": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 4,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "mile": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 4,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "please": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 4,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "remember": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 4,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "cheese": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 102,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "station": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 23,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "maze": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 22,
+      "status": "mastered",
+      "cefr": "B1"
+    },
+    "sniff": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 17,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "scurry": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 17,
+      "status": "mastered",
+      "cefr": "B2"
+    },
+    "littlepeople": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 16,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "mouse": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 15,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "each": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 9,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "home": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 9,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "around": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 9,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "where": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 9,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "enjoy": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 8,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "didn't": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 8,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "change": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 8,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "while": {
+      "first_seen": "02-who-moved-my-cheese",
+      "occurrences": 7,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    }
+  },
+  "target_learning_words": {}
+}
