@@ -1,0 +1,13 @@
+# Superpowers process and meta-guidance docs (internal agent specs & plans)
+docs/superpowers/
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Python / Local caches
+__pycache__/
+*.pyc
