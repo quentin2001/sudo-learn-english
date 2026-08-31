@@ -51,7 +51,10 @@
 ```
 .
 ├─ docs/
-│   └─ methodology-guide.md   # 核心指南：i+1 理论、阅读守则与内化 SOP
+│   ├─ methodology-guide.md   # 核心指南：i+1 理论、阅读守则与内化 SOP
+│   └─ 把你的英语用起来.pdf     # 经典方法论电子书原著
+├─ toolbooks/
+│   └─ 01-把你的英语用起来.md   # 方法论精读与实战指南（全书拆解）
 ├─ books/
 │   ├─ _template.md           # 标准一书一档模板
 │   ├─ 01-the-little-prince.md # 第 1 本书：《小王子》完本与语块档案
