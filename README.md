@@ -4,8 +4,8 @@
 
 ---
 
-[![Methodology](https://img.shields.io/badge/SLA_Theory-Krashen_i%2B1-brightgreen)](docs/methodology-guide.md)
-[![Reading Stage](https://img.shields.io/badge/Current_Stage-Phase_1_(Flow_&_Confidence)-blue)](docs/methodology-guide.md#三-进阶选书阶梯-the-3-phase-roadmap)
+[![Methodology](https://img.shields.io/badge/SLA_Theory-Krashen_i%2B1-brightgreen)](toolbooks/01-把你的英语用起来.md)
+[![Reading Stage](https://img.shields.io/badge/Current_Stage-Phase_1_(Flow_&_Confidence)-blue)](skills/esheep-pick-enbooks/SKILL.md)
 [![Books Read](https://img.shields.io/badge/Books_Completed-1-orange)](books/)
 [![Words Absorbed](https://img.shields.io/badge/Words_Absorbed-~25%2C000+-purple)](books/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
@@ -20,7 +20,7 @@
 2. **苏格拉底式启发对话（Socratic AI Dialogue）**：读完后与 AI 针对情节和哲理用英文碰撞思想，每轮实现“观点共鸣 + 1~2个地道语块升级 + 延伸追问”。
 3. **一书一档深度沉淀（Book Archives）**：提炼高价值语块（Collocations），通过“个人生活微造句”将消极词汇转化为终身积极能力。
 
-> 📖 **完整方法论手册**：详见 [《i+1 英文原著阅读与深度内化方法论指南》](docs/methodology-guide.md)
+> 📖 **完整方法论手册**：详见 [《把你的英语用起来！精读指南与学习蓝图》](toolbooks/01-把你的英语用起来.md)
 
 ---
 
@@ -50,8 +50,7 @@
 
 ```
 .
-├─ docs/                  # 方法论与核心指南、经典电子书原著
-│   ├─ methodology-guide.md     # 核心指南：i+1 理论、阅读守则与内化 SOP
+├─ docs/                  # 经典方法论电子书原著
 │   └─ 把你的英语用起来.pdf       # 经典方法论电子书原著
 ├─ toolbooks/             # 经典工具书精读专区
 │   └─ 01-把你的英语用起来.md   # 方法论精读与实战指南（全书拆解）
@@ -79,7 +78,7 @@
 [选书] -> [零查词通读] -> [与 AI 对话] -> [建立档案/微造句] -> [更新主页]
 ```
 
-1. **选书**：根据 [选书阶梯](docs/methodology-guide.md#三-进阶选书阶梯-the-3-phase-roadmap) 挑选一本 95% 以上词汇都认识的书。
+1. **选书**：使用 [`skills/esheep-pick-enbooks/SKILL.md`](skills/esheep-pick-enbooks/SKILL.md) 评估或根据 [100本原著难度表](toolbooks/01-把你的英语用起来.md#附录-22经典畅销英文原著-100-本难度全览表) 挑选一本 95% 以上词汇都认识的书。
 2. **通读**：遵循 **3 秒法则**，全程不查词典，一口气读完，保护心流。
 3. **内化对话**：读完后对 AI 说：`“我刚刚读完了《书名》，我们来进行启发式内化探讨吧！”`
 4. **归档**：复制 `books/_template.md`，记录本次探讨感悟与 5~10 个核心语块的场景微造句。
