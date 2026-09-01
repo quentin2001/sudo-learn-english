@@ -17,8 +17,8 @@
 
 * 🧠 **[个人方法论总纲 (Master Playbook)](playbook.md)**：融汇克拉申 $i+1$、旋元佑文法、赖世雄音标、AAT 语调与商务实战的个人专属底层操作系统。
 * 📅 **[实战与成长日志 (Learning Journal)](journal.md)**：Sprint 阶段冲刺目标、每日刻意练习打卡与复盘日志。
-* 🛠️ **[《把你的英语用起来！》精读拆解](books/toolbooks/notes/01-把你的英语用起来.md)**：全书四大部分深度拆解与 [100 本经典原著难度全览表](books/toolbooks/notes/01-把你的英语用起来.md#附录-22经典畅销英文原著-100-本难度全览表)。
-* 🗣️ **[《赖世雄美语音标》发音实战](books/toolbooks/notes/02-赖世雄美语音标.md)**：48 个美语音标、微笑长元音 `/iː/` 与微垂短元音 `/ɪ/` 及 8 组生死对决对比。
+* 🛠️ **《把你的英语用起来！》**：[📖 高清原著 PDF](books/toolbooks/ebooks/01-把你的英语用起来.pdf) · [📝 精读拆解与 100 本难度全览表](books/toolbooks/notes/01-把你的英语用起来.md)
+* 🗣️ **《赖世雄美语音标》**：[📖 完整教材 PDF (136页)](books/toolbooks/ebooks/02-赖世雄美语音标.pdf) · [📝 发音实战与最小对立笔记](books/toolbooks/notes/02-赖世雄美语音标.md)
 
 ---
 
