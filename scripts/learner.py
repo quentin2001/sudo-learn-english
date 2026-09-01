@@ -23,7 +23,7 @@ if sys.stdout and hasattr(sys.stdout, "reconfigure"):
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-CORPUS_DIR = BASE_DIR / "corpus"
+BOOKS_DIR = BASE_DIR / "books"
 LEXICON_FILE = DATA_DIR / "cefr_oxford_lexicon.json"
 USER_PROFILE_FILE = DATA_DIR / "user_lexicon.json"
 
@@ -193,16 +193,16 @@ def analyze_book(file_path: Path):
 def triage_book(book_id: str):
     """Interactive rapid triage scanner to mark words as Known or Target Learning."""
     file_map = {
-        "1": CORPUS_DIR / "01-the-little-prince.txt",
-        "01": CORPUS_DIR / "01-the-little-prince.txt",
-        "the-little-prince": CORPUS_DIR / "01-the-little-prince.txt",
-        "2": CORPUS_DIR / "02-who-moved-my-cheese.txt",
-        "02": CORPUS_DIR / "02-who-moved-my-cheese.txt",
-        "who-moved-my-cheese": CORPUS_DIR / "02-who-moved-my-cheese.txt",
+        "1": BOOKS_DIR / "01-the-little-prince.txt",
+        "01": BOOKS_DIR / "01-the-little-prince.txt",
+        "the-little-prince": BOOKS_DIR / "01-the-little-prince.txt",
+        "2": BOOKS_DIR / "02-who-moved-my-cheese.txt",
+        "02": BOOKS_DIR / "02-who-moved-my-cheese.txt",
+        "who-moved-my-cheese": BOOKS_DIR / "02-who-moved-my-cheese.txt",
     }
     target_file = file_map.get(book_id)
     if not target_file or not target_file.exists():
-        print(f"❌ Error: Book '{book_id}' not found in corpus.")
+        print(f"❌ Error: Book '{book_id}' not found in books directory.")
         return
 
     analysis = analyze_book(target_file)

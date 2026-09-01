@@ -11,9 +11,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-CORPUS_DIR = BASE_DIR / "corpus"
+BOOKS_DIR = BASE_DIR / "books"
 DATA_DIR.mkdir(exist_ok=True)
-CORPUS_DIR.mkdir(exist_ok=True)
+BOOKS_DIR.mkdir(exist_ok=True)
 
 LEXICON_FILE = DATA_DIR / "cefr_oxford_lexicon.json"
 USER_PROFILE_FILE = DATA_DIR / "user_lexicon.json"

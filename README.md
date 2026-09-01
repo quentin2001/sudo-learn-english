@@ -38,11 +38,11 @@
 
 ## 📚 原图书架索引 (Bookshelf Index)
 
-| 序号 | 书籍名称 (Title) | 体裁与分类 | 词数 (Words) | $i+1$ 难度 | 状态 (Status) | 档案链接 (Archive) |
+| 序号 | 书籍名称 (Title) | 体裁与分类 | 词数 (Words) | $i+1$ 难度 | 状态 (Status) | 资源与档案 (Links) |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| 01 | **The Little Prince** (小王子) | 哲学童话 / 文学寓言 | ~15,000 | ⭐⭐⭐ | `Completed` ✅ | [查看档案](books/01-the-little-prince.md) |
-| 02 | **Who Moved My Cheese?** (谁动了我的奶酪) | 职场寓言 / 个人成长 | ~10,000 | ⭐⭐ | `Reading` ⏳ | [查看档案](books/02-who-moved-my-cheese.md) |
-| - | *新书档案模板* | - | - | - | `Template` | [使用模板](books/_template.md) |
+| 01 | **The Little Prince** (小王子) | 哲学童话 / 文学寓言 | ~15,000 | ⭐⭐⭐ | `Completed` ✅ | [📖 全彩插图版 PDF](books/01-the-little-prince.pdf) · [📝 读后档案](reading-notes/01-the-little-prince.md) |
+| 02 | **Who Moved My Cheese?** (谁动了我的奶酪) | 职场寓言 / 个人成长 | ~10,000 | ⭐⭐ | `Reading` ⏳ | [📖 插图版 PDF](books/02-who-moved-my-cheese.pdf) · [📝 在读打卡](reading-notes/02-who-moved-my-cheese.md) |
+| - | *新书档案模板* | - | - | - | `Template` | [使用模板](reading-notes/_template.md) |
 
 ---
 
@@ -50,22 +50,24 @@
 
 ```
 .
-├─ docs/                  # 经典方法论电子书原著
-│   └─ 把你的英语用起来.pdf       # 经典方法论电子书原著
-├─ toolbooks/             # 经典工具书精读专区
-│   └─ 01-把你的英语用起来.md   # 方法论精读与实战指南（全书拆解）
-├─ skills/                # 智能工具技能
-│   └─ esheep-pick-enbooks/   # 智能选书 Skill（量化标准与决策卡片）
-├─ books/                 # 一书一档读后精读与语块库
+├─ toolbooks/             # 🛠️ 经典工具书精读专区
+│   ├─ 01-把你的英语用起来.md   # 方法论精读与实战指南（全书拆解）
+│   └─ 把你的英语用起来.pdf     # 532 页高清方法论电子书原著
+├─ reading-notes/         # ✍️ 一书一档读后精读与语块库
 │   ├─ _template.md             # 标准一书一档模板
 │   ├─ 01-the-little-prince.md   # 第 1 本书：《小王子》完本与语块档案
 │   └─ 02-who-moved-my-cheese.md # 第 2 本书：《谁动了我的奶酪》在读与打卡
-├─ corpus/                # 英文原著文本语料库
-├─ data/                  # 词汇图谱与学习进度数据
-├─ scripts/               # 语料分析与词汇追踪工具脚本
+├─ books/                 # 📚 英文原版书库（高清插图版 PDF 与纯文本）
+│   ├─ 01-the-little-prince.pdf  # 《小王子》全彩插画原版 PDF (105页/47幅水彩画)
+│   ├─ 02-who-moved-my-cheese.pdf # 《谁动了我的奶酪》插图版 PDF
+│   └─ *.txt                     # 用于 NLP 词频分析的文本语料
+├─ skills/                # 🧠 智能工具技能
+│   └─ esheep-pick-enbooks/     # 智能选书 Skill（量化标准与决策卡片）
+├─ scripts/               # ⚙️ 语料分析与词汇追踪工具脚本
 │   ├─ learner.py               # 语料分析与分级评测 CLI
 │   ├─ build_lexicon.py         # 词库拓展构建脚本
 │   └─ init_data.py             # 基础词库与用户画像初始化
+├─ data/                  # 📊 词汇图谱与学习进度数据
 ├─ README.md              # 知识库主页与动态看板
 └─ .gitignore             # 过滤过程与临时构建文件
 ```
@@ -75,13 +77,13 @@
 ## 🚀 极简阅读工作流 (Quick Workflow)
 
 ```
-[选书] -> [零查词通读] -> [与 AI 对话] -> [建立档案/微造句] -> [更新主页]
+[选书] -> [读插图 PDF] -> [与 AI 对话] -> [建立档案/微造句] -> [更新主页]
 ```
 
 1. **选书**：使用 [`skills/esheep-pick-enbooks/SKILL.md`](skills/esheep-pick-enbooks/SKILL.md) 评估或根据 [100本原著难度表](toolbooks/01-把你的英语用起来.md#附录-22经典畅销英文原著-100-本难度全览表) 挑选一本 95% 以上词汇都认识的书。
-2. **通读**：遵循 **3 秒法则**，全程不查词典，一口气读完，保护心流。
+2. **通读**：打开 `books/` 中的**插图版 PDF**，遵循 **3 秒法则**，全程不查词典，一口气读完，保护心流。
 3. **内化对话**：读完后对 AI 说：`“我刚刚读完了《书名》，我们来进行启发式内化探讨吧！”`
-4. **归档**：复制 `books/_template.md`，记录本次探讨感悟与 5~10 个核心语块的场景微造句。
+4. **归档**：复制 `reading-notes/_template.md`，记录本次探讨感悟与 5~10 个核心语块的场景微造句。
 
 ---
 
