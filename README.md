@@ -50,21 +50,27 @@
 
 ```
 .
-├─ docs/
-│   ├─ methodology-guide.md   # 核心指南：i+1 理论、阅读守则与内化 SOP
-│   └─ 把你的英语用起来.pdf     # 经典方法论电子书原著
-├─ toolbooks/
+├─ docs/                  # 方法论与核心指南、经典电子书、专项训练笔记
+│   ├─ methodology-guide.md     # 核心指南：i+1 理论、阅读守则与内化 SOP
+│   ├─ 把你的英语用起来.pdf       # 经典方法论电子书原著
+│   ├─ eslpod-tactics.md        # 听力与日常训练笔记
+│   └─ spoken-english-rhythm.md # 口语与连读节奏笔记
+├─ toolbooks/             # 经典工具书精读专区
 │   └─ 01-把你的英语用起来.md   # 方法论精读与实战指南（全书拆解）
-├─ skills/
+├─ skills/                # 智能工具技能
 │   └─ esheep-pick-enbooks/   # 智能选书 Skill（量化标准与决策卡片）
-├─ books/
-│   ├─ _template.md           # 标准一书一档模板
-│   ├─ 01-the-little-prince.md # 第 1 本书：《小王子》完本与语块档案
+├─ books/                 # 一书一档读后精读与语块库
+│   ├─ _template.md             # 标准一书一档模板
+│   ├─ 01-the-little-prince.md   # 第 1 本书：《小王子》完本与语块档案
 │   └─ 02-who-moved-my-cheese.md # 第 2 本书：《谁动了我的奶酪》在读与打卡
-├─ ESLPOD.md                  # 听力与日常训练笔记（历史归档）
-├─ speak.md                   # 口语与连读节奏笔记（历史归档）
-├─ README.md                  # 知识库主页与动态看板
-└─ .gitignore                 # 过滤过程与临时构建文件
+├─ corpus/                # 英文原著文本语料库
+├─ data/                  # 词汇图谱与学习进度数据
+├─ scripts/               # 语料分析与词汇追踪工具脚本
+│   ├─ learner.py               # 语料分析与分级评测 CLI
+│   ├─ build_lexicon.py         # 词库拓展构建脚本
+│   └─ init_data.py             # 基础词库与用户画像初始化
+├─ README.md              # 知识库主页与动态看板
+└─ .gitignore             # 过滤过程与临时构建文件
 ```
 
 ---

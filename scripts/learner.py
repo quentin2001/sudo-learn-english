@@ -21,7 +21,7 @@ if sys.stdout and hasattr(sys.stdout, "reconfigure"):
         pass
 
 # Paths
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 CORPUS_DIR = BASE_DIR / "corpus"
 LEXICON_FILE = DATA_DIR / "cefr_oxford_lexicon.json"

@@ -6,7 +6,7 @@ Enriches data/cefr_oxford_lexicon.json with foundational A1-C2 vocabulary and ph
 import json
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 LEXICON_FILE = DATA_DIR / "cefr_oxford_lexicon.json"
 

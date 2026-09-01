@@ -9,8 +9,9 @@ import re
 from collections import Counter
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent / "data"
-CORPUS_DIR = Path(__file__).parent / "corpus"
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+CORPUS_DIR = BASE_DIR / "corpus"
 DATA_DIR.mkdir(exist_ok=True)
 CORPUS_DIR.mkdir(exist_ok=True)
 
