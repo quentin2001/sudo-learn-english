@@ -55,6 +55,8 @@
 │   └─ 把你的英语用起来.pdf     # 经典方法论电子书原著
 ├─ toolbooks/
 │   └─ 01-把你的英语用起来.md   # 方法论精读与实战指南（全书拆解）
+├─ skills/
+│   └─ esheep-pick-enbooks/   # 智能选书 Skill（量化标准与决策卡片）
 ├─ books/
 │   ├─ _template.md           # 标准一书一档模板
 │   ├─ 01-the-little-prince.md # 第 1 本书：《小王子》完本与语块档案
