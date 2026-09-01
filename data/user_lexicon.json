@@ -303,6 +303,96 @@
       "occurrences": 7,
       "status": "mastered",
       "cefr": "Uncategorized"
+    },
+    "king": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 36,
+      "status": "mastered",
+      "cefr": "A1"
+    },
+    "himself": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 32,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "order": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 27,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "reply": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 24,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "once": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 23,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "geographer": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 23,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "matter": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 22,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "question": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 22,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "anyth": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 21,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "laugh": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 21,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "answe": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 20,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "myself": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 20,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "desert": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 20,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "earth": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 20,
+      "status": "mastered",
+      "cefr": "Uncategorized"
+    },
+    "baobab": {
+      "first_seen": "01-the-little-prince",
+      "occurrences": 20,
+      "status": "mastered",
+      "cefr": "Uncategorized"
     }
   },
   "target_learning_words": {}

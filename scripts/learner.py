@@ -23,7 +23,7 @@ if sys.stdout and hasattr(sys.stdout, "reconfigure"):
 # Paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
-BOOKS_DIR = BASE_DIR / "books"
+BOOKS_DIR = BASE_DIR / "books" / "corpus" / "books"
 LEXICON_FILE = DATA_DIR / "cefr_oxford_lexicon.json"
 USER_PROFILE_FILE = DATA_DIR / "user_lexicon.json"
 
@@ -119,14 +119,26 @@ def extract_tokens_and_sentences(text: str):
 
     return tokens, word_to_sentences
 
+def read_book_content(file_path: Path) -> str:
+    """Extracts raw text from txt or pdf files seamlessly."""
+    if file_path.suffix.lower() == ".pdf":
+        try:
+            import pypdf
+            reader = pypdf.PdfReader(str(file_path))
+            pages_text = [p.extract_text() or "" for p in reader.pages]
+            return "\n".join(pages_text)
+        except Exception as e:
+            print(f"⚠️ PDF extraction error with pypdf: {e}")
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+        return f.read()
+
 def analyze_book(file_path: Path):
     """Comprehensive linguistic and lexical analysis of a book."""
     if not file_path.exists():
         print(f"❌ Error: File {file_path} does not exist.")
         return None
 
-    with open(file_path, "r", encoding="utf-8") as f:
-        content = f.read()
+    content = read_book_content(file_path)
 
     tokens, sentence_map = extract_tokens_and_sentences(content)
     total_tokens = len(tokens)
@@ -193,12 +205,12 @@ def analyze_book(file_path: Path):
 def triage_book(book_id: str):
     """Interactive rapid triage scanner to mark words as Known or Target Learning."""
     file_map = {
-        "1": BOOKS_DIR / "01-the-little-prince.txt",
-        "01": BOOKS_DIR / "01-the-little-prince.txt",
-        "the-little-prince": BOOKS_DIR / "01-the-little-prince.txt",
-        "2": BOOKS_DIR / "02-who-moved-my-cheese.txt",
-        "02": BOOKS_DIR / "02-who-moved-my-cheese.txt",
-        "who-moved-my-cheese": BOOKS_DIR / "02-who-moved-my-cheese.txt",
+        "1": BOOKS_DIR / "01-the-little-prince.pdf",
+        "01": BOOKS_DIR / "01-the-little-prince.pdf",
+        "the-little-prince": BOOKS_DIR / "01-the-little-prince.pdf",
+        "2": BOOKS_DIR / "02-who-moved-my-cheese.pdf",
+        "02": BOOKS_DIR / "02-who-moved-my-cheese.pdf",
+        "who-moved-my-cheese": BOOKS_DIR / "02-who-moved-my-cheese.pdf",
     }
     target_file = file_map.get(book_id)
     if not target_file or not target_file.exists():
