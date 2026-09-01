@@ -4,7 +4,8 @@
 
 ---
 
-[![Methodology](https://img.shields.io/badge/SLA_Theory-Krashen_i%2B1-brightgreen)](books/toolbooks/notes/01-把你的英语用起来.md)
+[![Playbook](https://img.shields.io/badge/Master_Playbook-SLA_OS-brightgreen)](playbook.md)
+[![Learning Log](https://img.shields.io/badge/Learning_Log-Sprint_01-blueviolet)](journal.md)
 [![Reading Stage](https://img.shields.io/badge/Current_Stage-Phase_1_(Flow_&_Confidence)-blue)](engine/skills/esheep-pick-enbooks/SKILL.md)
 [![Books Read](https://img.shields.io/badge/Books_Completed-1-orange)](books/corpus/ebooks/)
 [![Words Absorbed](https://img.shields.io/badge/Words_Absorbed-~25%2C000+-purple)](books/corpus/notes/)
@@ -20,7 +21,9 @@
 2. **苏格拉底式启发对话（Socratic AI Dialogue）**：读完后与 AI 针对情节和哲理用英文碰撞思想，每轮实现“观点共鸣 + 1~2个地道语块升级 + 延伸追问”。
 3. **一书一档深度沉淀（Book Archives）**：提炼高价值语块（Collocations），通过“个人生活微造句”将消极词汇转化为终身积极能力。
 
-> 📖 **完整方法论手册**：详见 [《把你的英语用起来！精读指南与学习蓝图》](books/toolbooks/notes/01-把你的英语用起来.md)
+> 🧠 **个人方法论总纲**：详见 [《个人英语习得底层操作系统 (Master Playbook)》](playbook.md)  
+> 📅 **学习与打卡日志**：详见 [《个人学习实战与成长日志 (Learning Journal)》](journal.md)  
+> 📖 **工具书精读拆解**：详见 [《把你的英语用起来！精读指南与学习蓝图》](books/toolbooks/notes/01-把你的英语用起来.md)
 
 ---
 
@@ -32,7 +35,7 @@
 | **在读书籍 (Currently Reading)** | **1 本** (进度 ~50%) | 《Who Moved My Cheese?》 |
 | **累计吸收字数 (Words Absorbed)** | **~25,000+ words** | 🎯 第一阶段目标：100,000 words |
 | **当前所处阶梯 (Stage)** | **Phase 1: 建立心流与语感** | 寓言/儿童文学/极简自控类 |
-| **平均阅读速度 (Avg WPM)** | **~120 - 150+ WPM** | 提速明显，语流感显著增强 |
+| **当前冲刺周期 (Current Sprint)** | **Sprint 01 (语音筑基与心流)** | 详见 [`journal.md`](journal.md) |
 
 ---
 
@@ -50,6 +53,9 @@
 
 ```
 .
+├── 🧠 playbook.md        # 📘【个人方法论总纲】我的英语习得底层操作系统（融会贯通）
+├── 📅 journal.md         # 📝【实战学习日志】全周期时间投入、每日打卡流水与冲刺复盘
+│
 ├─ books/                 # 📚 核心图书与笔记大库
 │   ├─ corpus/            # 📖 英文原版原著区（英语阅读实践）
 │   │   ├─ ebooks/        # 高清插图版原著 PDF（《小王子》全彩原版、《谁动了我的奶酪》）
@@ -57,6 +63,7 @@
 │   └─ toolbooks/         # 🛠️ 英语学习工具书与方法论区（认知与心法）
 │       ├─ ebooks/        # 高清工具书 PDF（《把你的英语用起来.pdf》）
 │       └─ notes/         # 工具书全本精读与行动指南（01-把你的英语用起来.md）
+│
 ├─ engine/                # ⚙️ 后台技术与数据引擎
 │   ├─ skills/            # 🧠 智能工具技能（esheep-pick-enbooks 选书 Skill）
 │   ├─ scripts/           # 💻 语料分析与词汇追踪工具（直接分析 PDF）
@@ -64,6 +71,7 @@
 │   │   ├─ build_lexicon.py # 词库拓展构建脚本
 │   │   └─ init_data.py   # 数据初始化脚本
 │   └── data/             # 📊 词汇图谱与用户画像数据库
+│
 ├─ README.md              # 知识库主页与动态看板
 └─ .gitignore             # 过滤过程与临时构建文件
 ```
