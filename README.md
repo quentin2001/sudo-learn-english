@@ -5,8 +5,8 @@
 ---
 
 [![Methodology](https://img.shields.io/badge/SLA_Theory-Krashen_i%2B1-brightgreen)](books/toolbooks/notes/01-把你的英语用起来.md)
-[![Reading Stage](https://img.shields.io/badge/Current_Stage-Phase_1_(Flow_&_Confidence)-blue)](skills/esheep-pick-enbooks/SKILL.md)
-[![Books Read](https://img.shields.io/badge/Books_Completed-1-orange)](books/corpus/books/)
+[![Reading Stage](https://img.shields.io/badge/Current_Stage-Phase_1_(Flow_&_Confidence)-blue)](engine/skills/esheep-pick-enbooks/SKILL.md)
+[![Books Read](https://img.shields.io/badge/Books_Completed-1-orange)](books/corpus/ebooks/)
 [![Words Absorbed](https://img.shields.io/badge/Words_Absorbed-~25%2C000+-purple)](books/corpus/notes/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
@@ -40,8 +40,8 @@
 
 | 序号 | 书籍名称 (Title) | 体裁与分类 | 词数 (Words) | $i+1$ 难度 | 状态 (Status) | 资源与档案 (Links) |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| 01 | **The Little Prince** (小王子) | 哲学童话 / 文学寓言 | ~15,000 | ⭐⭐⭐ | `Completed` ✅ | [📖 全彩插图版 PDF](books/corpus/books/01-the-little-prince.pdf) · [📝 读后档案](books/corpus/notes/01-the-little-prince.md) |
-| 02 | **Who Moved My Cheese?** (谁动了我的奶酪) | 职场寓言 / 个人成长 | ~10,000 | ⭐⭐ | `Reading` ⏳ | [📖 插图版 PDF](books/corpus/books/02-who-moved-my-cheese.pdf) · [📝 在读打卡](books/corpus/notes/02-who-moved-my-cheese.md) |
+| 01 | **The Little Prince** (小王子) | 哲学童话 / 文学寓言 | ~15,000 | ⭐⭐⭐ | `Completed` ✅ | [📖 全彩插图版 PDF](books/corpus/ebooks/01-the-little-prince.pdf) · [📝 读后档案](books/corpus/notes/01-the-little-prince.md) |
+| 02 | **Who Moved My Cheese?** (谁动了我的奶酪) | 职场寓言 / 个人成长 | ~10,000 | ⭐⭐ | `Reading` ⏳ | [📖 插图版 PDF](books/corpus/ebooks/02-who-moved-my-cheese.pdf) · [📝 在读打卡](books/corpus/notes/02-who-moved-my-cheese.md) |
 | - | *新书档案模板* | - | - | - | `Template` | [使用模板](books/corpus/notes/_template.md) |
 
 ---
@@ -52,18 +52,18 @@
 .
 ├─ books/                 # 📚 核心图书与笔记大库
 │   ├─ corpus/            # 📖 英文原版原著区（英语阅读实践）
-│   │   ├─ books/         # 高清插图版原著 PDF（《小王子》全彩原版、《谁动了我的奶酪》）
+│   │   ├─ ebooks/        # 高清插图版原著 PDF（《小王子》全彩原版、《谁动了我的奶酪》）
 │   │   └─ notes/         # 一书一档读后精读与语块档案（01-小王子.md、02-奶酪.md）
 │   └─ toolbooks/         # 🛠️ 英语学习工具书与方法论区（认知与心法）
-│       ├─ books/         # 高清工具书 PDF（《把你的英语用起来.pdf》）
+│       ├─ ebooks/        # 高清工具书 PDF（《把你的英语用起来.pdf》）
 │       └─ notes/         # 工具书全本精读与行动指南（01-把你的英语用起来.md）
-├─ skills/                # 🧠 智能工具技能
-│   └─ esheep-pick-enbooks/ # 智能选书 Skill（量化标准与决策卡片）
-├─ scripts/               # ⚙️ 语料分析与词汇追踪工具脚本（直接分析 PDF）
-│   ├─ learner.py         # 语料分析与分级评测 CLI
-│   ├─ build_lexicon.py   # 词库拓展构建脚本
-│   └─ init_data.py       # 基础词库与用户画像初始化
-├─ data/                  # 📊 词汇图谱与学习进度数据
+├─ engine/                # ⚙️ 后台技术与数据引擎
+│   ├─ skills/            # 🧠 智能工具技能（esheep-pick-enbooks 选书 Skill）
+│   ├─ scripts/           # 💻 语料分析与词汇追踪工具（直接分析 PDF）
+│   │   ├─ learner.py     # 词频与 CEFR 难度分析 CLI
+│   │   ├─ build_lexicon.py # 词库拓展构建脚本
+│   │   └─ init_data.py   # 数据初始化脚本
+│   └── data/             # 📊 词汇图谱与用户画像数据库
 ├─ README.md              # 知识库主页与动态看板
 └─ .gitignore             # 过滤过程与临时构建文件
 ```
@@ -76,8 +76,8 @@
 [选书] -> [读插图 PDF] -> [与 AI 对话] -> [建立档案/微造句] -> [更新主页]
 ```
 
-1. **选书**：使用 [`skills/esheep-pick-enbooks/SKILL.md`](skills/esheep-pick-enbooks/SKILL.md) 评估或根据 [100本原著难度表](books/toolbooks/notes/01-把你的英语用起来.md#附录-22经典畅销英文原著-100-本难度全览表) 挑选一本 95% 以上词汇都认识的书。
-2. **通读**：打开 `books/corpus/books/` 中的**插图版 PDF**，遵循 **3 秒法则**，全程不查词典，一口气读完，保护心流。
+1. **选书**：使用 [`engine/skills/esheep-pick-enbooks/SKILL.md`](engine/skills/esheep-pick-enbooks/SKILL.md) 评估或根据 [100本原著难度表](books/toolbooks/notes/01-把你的英语用起来.md#附录-22经典畅销英文原著-100-本难度全览表) 挑选一本 95% 以上词汇都认识的书。
+2. **通读**：打开 `books/corpus/ebooks/` 中的**插图版 PDF**，遵循 **3 秒法则**，全程不查词典，一口气读完，保护心流。
 3. **内化对话**：读完后对 AI 说：`“我刚刚读完了《书名》，我们来进行启发式内化探讨吧！”`
 4. **归档**：复制 `books/corpus/notes/_template.md`，记录本次探讨感悟与 5~10 个核心语块的场景微造句。
 

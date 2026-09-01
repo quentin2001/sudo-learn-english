@@ -21,9 +21,9 @@ if sys.stdout and hasattr(sys.stdout, "reconfigure"):
         pass
 
 # Paths
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
-BOOKS_DIR = BASE_DIR / "books" / "corpus" / "books"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+DATA_DIR = BASE_DIR / "engine" / "data"
+BOOKS_DIR = BASE_DIR / "books" / "corpus" / "ebooks"
 LEXICON_FILE = DATA_DIR / "cefr_oxford_lexicon.json"
 USER_PROFILE_FILE = DATA_DIR / "user_lexicon.json"
 
