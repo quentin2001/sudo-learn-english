@@ -43,7 +43,11 @@
 │
 ├── 📚 books/             # 核心图书与笔记大库
 │   ├── corpus/           # 📖 英文原著（ebooks/插图PDF + notes/读后档案）
+│   ├── nce/              # 📖 新概念英语实战库
 │   └── toolbooks/        # 🛠️ 工具书（ebooks/原著PDF + notes/精读拆解）
+│
+├── 📐 grammar/           # 语法与句法专项大库
+│   └── tenses.md         # ⏳ 12 大英语时态实战精炼笔记
 │
 ├── ⚙️ engine/            # 后台技术与数据底座
 │   ├── skills/           # 🧠 智能选书 Skill（esheep-pick-enbooks）

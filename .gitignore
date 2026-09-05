@@ -11,3 +11,7 @@ Thumbs.db
 # Python / Local caches
 __pycache__/
 *.pyc
+
+# Local Large PDFs
+books/nce/
+
