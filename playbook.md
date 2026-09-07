@@ -161,6 +161,30 @@
 └──────────┴─────────────────────────────────────────────────┴─────────────────────────────┘
 ```
 
+### 🗂️ 核心实操教材、视频课程与本地索引 (Core Resources & Links)
+
+> 💡 本操作系统严格践行“极简减法”，以下为当前执行体系中**唯一经过筛选沉淀的核心教材、视频入口与本地资源**：
+
+#### 1. 🎙️ 语音与口音筑基 (Phonetics & Accent)
+* 🗣️ **《赖世雄美语音标》**：[📖 本地高清教材 PDF (136页)](books/toolbooks/ebooks/02-赖世雄美语音标.pdf) · [📝 全书全景大典与每日热身 SOP](books/toolbooks/notes/02-赖世雄美语音标.md)
+* 🐰 **英语兔 · 国际音标全通关**：[🎬 Bilibili 视频主页](https://space.bilibili.com/483162499)
+* 🎙️ **Paul Gruber · Pronunciation Workshop**：3D 发音肌肉物理绝活速查（见 Section 06）
+* 🎼 **Ann Cook · American Accent Training (AAT)**：[📖 本地教材 PDF](books/toolbooks/ebooks/04-American%20Accent%20Training.pdf)
+
+#### 2. 📐 语法与时态体系 (Grammar & Tenses)
+* 🎬 **Larry想做技术大佬 · 《半个月，搭建你的英语语法体系》**：[🎬 Bilibili 选集（核心主攻：动词的时、体、貌）](https://space.bilibili.com/282361001)
+* ⏳ **engVid Rebecca · 《Learn English Tenses (23 讲)》**：[🎬 YouTube 播放列表](https://www.youtube.com/playlist?list=PLxSz4mPLHWDZ95iyxBNdjxLNI1k8HnVcd) · [📝 实战精炼笔记](grammar/tenses.md)
+* ⏱️ **Teacher Arnel · 《ALL 12 TENSES IN 1 HOUR!》**：[🎬 YouTube 备查视频](https://www.youtube.com/watch?v=cW3pdeTYFZc)
+* 📘 **旋元佑 · 《旋元佑进阶文法》**：广读与修辞概念指南
+
+#### 3. 📖 精读、回译与原著输入 (Reading & Output)
+* 📖 **《新概念英语 2 & 3》**：朗文/外研社官方教材（单句精读、影子跟读与逆向回译质检主战场）
+* 🛠️ **伍君仪/刘晓光 · 《把你的英语用起来！》**：[📖 本地原著 PDF](books/toolbooks/ebooks/01-把你的英语用起来.pdf) · [📝 精读拆解与 100 本书单](books/toolbooks/notes/01-把你的英语用起来.md)
+* 🌹 **《The Little Prince》 (小王子 · 已读完)**：[📖 本地插图 PDF](books/corpus/ebooks/01-the-little-prince.pdf) · [📝 读后档案](books/corpus/notes/01-the-little-prince.md)
+* 🧀 **《Who Moved My Cheese?》 (谁动了我的奶酪 · 在读)**：[📖 本地插图 PDF](books/corpus/ebooks/02-who-moved-my-cheese.pdf) · [📝 读后档案](books/corpus/notes/02-who-moved-my-cheese.md)
+
+---
+
 ### 📖 新概念英语实战使用指南 (NCE Field Guide)
 
 > **核心定位**：《新概念英语》（尤其第 3 册）是文法拆解与回译输出的**“主战场”**。它不是用来走马观花泛读的，而是用来**“锱铢必较、补齐底子”**的硬核练兵场。
