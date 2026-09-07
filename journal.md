@@ -31,6 +31,30 @@
 
 ---
 
+## 🗂️ 核心教材与课程资源库 (Resources & Links)
+
+> 简单记录当前正在使用及后续进阶的核心教材、视频课程与本地索引。
+
+### 1. 语音筑基 (Phonetics & Accent)
+* 🗣️ **《赖世雄美语音标》**：[📖 本地教材 PDF](books/toolbooks/ebooks/02-赖世雄美语音标.pdf) · [📝 学习笔记与每日热身 SOP](books/toolbooks/notes/02-赖世雄美语音标.md)
+* 🐰 **英语兔 · 国际音标基础课**：[Bilibili 视频主页](https://space.bilibili.com/483162499)
+* 🎙️ **Paul Gruber · Pronunciation Workshop**：发音物理要领速查（见 [`playbook.md`](playbook.md) 绝活速查）
+* 🎼 **Ann Cook · American Accent Training (AAT)**：[📖 本地教材 PDF](books/toolbooks/ebooks/04-American%20Accent%20Training.pdf)
+
+### 2. 语法与时态体系 (Grammar & Tenses)
+* 🎬 **Larry想做技术大佬 · 《半个月，搭建你的英语语法体系》**：[Bilibili 选集（主攻：动词的时、体、貌）](https://space.bilibili.com/282361001)
+* ⏳ **engVid Rebecca · 《Learn English Tenses (23 讲)》**：[YouTube 播放列表](https://www.youtube.com/playlist?list=PLxSz4mPLHWDZ95iyxBNdjxLNI1k8HnVcd) · [📝 实战精炼笔记](grammar/tenses.md)
+* ⏱️ **Teacher Arnel · 《ALL 12 TENSES IN 1 HOUR!》**：[YouTube 备查视频](https://www.youtube.com/watch?v=cW3pdeTYFZc)
+* 📘 **旋元佑 · 《旋元佑进阶文法》**：广读与认知修辞指南
+
+### 3. 精读、回译与原著阅读 (Reading & Output)
+* 📖 **《新概念英语 2 & 3》**：朗文/外研社官方教材（课文精读、单句影子跟读与逆向回译质检）
+* 🛠️ **《把你的英语用起来！》**：[📖 本地原著 PDF](books/toolbooks/ebooks/01-把你的英语用起来.pdf) · [📝 精读拆解与 100 本书单](books/toolbooks/notes/01-把你的英语用起来.md)
+* 🌹 **《The Little Prince》** (已读完)：[📖 本地插图 PDF](books/corpus/ebooks/01-the-little-prince.pdf) · [📝 读后档案](books/corpus/notes/01-the-little-prince.md)
+* 🧀 **《Who Moved My Cheese?》** (在读)：[📖 本地插图 PDF](books/corpus/ebooks/02-who-moved-my-cheese.pdf) · [📝 读后档案](books/corpus/notes/02-who-moved-my-cheese.md)
+
+---
+
 ## 📝 每日实战打卡流水模板 (Daily Log Template)
 
 ```markdown
