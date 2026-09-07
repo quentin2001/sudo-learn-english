@@ -12,6 +12,6 @@ Thumbs.db
 __pycache__/
 *.pyc
 
-# Local Large PDFs
+# Local Ebooks & Large PDFs (do not commit / upload)
 books/nce/
-
+**/ebooks/
