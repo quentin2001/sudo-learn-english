@@ -13,5 +13,6 @@ __pycache__/
 *.pyc
 
 # Local Ebooks & Large PDFs (do not commit / upload)
-books/nce/
+books/nce/*.pdf
+books/nce/ebooks/
 **/ebooks/

@@ -18,7 +18,9 @@
 │   ├── toolbooks/       # 学习工具书与教材
 │   │   ├── notes/       # 工具书学习笔记（音标、发音、学习方法等）
 │   │   └── ebooks/      # 工具书电子书（本地存放，不上传）
-│   └── nce/             # 新概念英语资料（本地存放，不上传）
+│   └── nce/             # 新概念英语资料
+│       ├── notes/       # 课文精读、升维复述文稿与回译质检
+│       └── *.pdf        # 官方教材与练习册（本地存放，不上传）
 │
 ├── grammar/             # 语法专项
 │   └── tenses.md        # 英语时态归纳与用法解析
@@ -49,6 +51,8 @@
   * [赖世雄美语音标](books/toolbooks/notes/02-赖世雄美语音标.md)
   * [Mastering the American Accent](books/toolbooks/notes/03-Mastering%20the%20American%20Accent.md)
   * [American Accent Training](books/toolbooks/notes/04-American%20Accent%20Training.md)
+* **新概念英语实战笔记 (`books/nce/notes/`)**：
+  * [新概念精读与升维复述回译模板](books/nce/notes/_template.md)
 
 ### 3. 语法专项 (`grammar/`)
 * **[tenses.md](grammar/tenses.md)**：12 大英语时态的构成规则、核心概念与典型用法归纳。
@@ -61,4 +65,4 @@
 ---
 
 ## 说明
-* 电子书教材及大文件（如各 `ebooks/` 目录及 `books/nce/`）仅在本地保留，已加入 `.gitignore`，不提交至 Git 仓库。
+* 电子书教材及大文件（如各 `ebooks/` 目录及 `books/nce/*.pdf`）仅在本地保留，已加入 `.gitignore`，不提交至 Git 仓库。
